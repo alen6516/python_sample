@@ -1,0 +1,16 @@
+# read file
+f=open("filePath", "r". encoding="UTF-8")
+while True :
+       i = f.readline()
+       if i=='':
+           break
+       print(i,end='')
+f.close()
+
+# write file
+f=open("filePath", "w". encoding="UTF-8")
+f.write("something")
+f.close()
+
+# argv
+# sys.argv[0] is fileName, not 'python'
