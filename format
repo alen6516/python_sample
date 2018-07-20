@@ -1,3 +1,6 @@
+# 常數用全寫
+	PORT = 179
+
 # 內部用的attribute和method用_開頭
 	_private_attribute
 
@@ -10,7 +13,13 @@
 	handle
 	_handle
 
-# class method 開頭用大寫，多個字時每個字用大寫開頭
+# 檔案名稱用小寫
+	food.py
+
+# class 名稱用大寫開頭
+	class Foo
+
+# class method 開頭用加上 cls，多個字時用_相連
 	cls_handle
 	_cls_handle
 
