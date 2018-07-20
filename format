@@ -24,17 +24,17 @@
 # 變數命名時，尾端加入type區別
 dict	  => _di
 list	  => _li
-set	    => _set
-tuple 	=> _tu
-string  => _str
-int	    => _int
+set	  => _set
+tuple 	  => _tu
+string    => _str
+int	  => _int
 float	  => _flo
 
 # 其他常用縮寫
 register	=> reg
-add		    => add
+add		=> add
 delete		=> del
 remove		=> rem
-temp		  => tmp
+temp		=> tmp
 local 		=> loc
 global		=> glo
