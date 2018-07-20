@@ -47,3 +47,5 @@ remove		=> rem
 temp		=> tmp
 local 		=> loc
 global		=> glo
+class		=> cls
+instance	=> ins
