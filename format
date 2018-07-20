@@ -1,0 +1,40 @@
+# 內部用的attribute和method用_開頭
+	_private_attribute
+
+# method用名詞開頭，回傳的結果用res開頭
+	res_time = get_time
+	set_time
+
+
+# 預處理的method用正常名稱，真正的method應該是一個private method，所以用_開頭
+	handle
+	_handle
+
+# class method 開頭用大寫，多個字時每個字用大寫開頭
+	cls_handle
+	_cls_handle
+
+# instance method用小寫開頭，多個字時用_相連
+	parse_tcp
+	_parse_tcp
+
+# class的變數開頭加入cls_，多個字用_隔開
+	cls_reg_li
+	
+# 變數命名時，尾端加入type區別
+dict	  => _di
+list	  => _li
+set	    => _set
+tuple 	=> _tu
+string  => _str
+int	    => _int
+float	  => _flo
+
+# 其他常用縮寫
+register	=> reg
+add		    => add
+delete		=> del
+remove		=> rem
+temp		  => tmp
+local 		=> loc
+global		=> glo
