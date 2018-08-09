@@ -4,12 +4,12 @@
 # 內部用的attribute和method用_開頭
 	_private_attribute
 
-# method用名詞開頭，回傳的結果用res開頭
-	res_time = get_time
+# method 用名詞開頭，回傳的結果用 ret 開頭
+	ret_time = get_time
 	set_time
 
 
-# 預處理的method用正常名稱，真正的method應該是一個private method，所以用_開頭
+# 預處理的 method 用正常名稱，真正的 method 應該是一個 private method，所以用 _ 開頭
 	handle
 	_handle
 
@@ -19,18 +19,18 @@
 # class 名稱用大寫開頭
 	class Foo
 
-# class method 開頭用加上 cls，多個字時用_相連
+# class method 開頭用加上 cls，多個字時用 _ 相連
 	cls_handle
 	_cls_handle
 
-# instance method用小寫開頭，多個字時用_相連
+# instance method 用小寫開頭，多個字時用 _ 相連
 	parse_tcp
 	_parse_tcp
 
-# class的變數開頭加入cls_，多個字用_隔開
+# class 的變數開頭加入 cls_，多個字用 _ 隔開
 	cls_reg_li
 	
-# 變數命名時，尾端加入type區別
+# 變數命名時，尾端加入 type 區別
 dict	  => _di
 list	  => _li
 set	  => _set
@@ -49,3 +49,4 @@ local 		=> loc
 global		=> glo
 class		=> cls
 instance	=> ins
+default		=> def
