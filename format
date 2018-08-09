@@ -50,3 +50,5 @@ global		=> glo
 class		=> cls
 instance	=> ins
 default		=> def
+parameter	=> para
+variable	=> var
