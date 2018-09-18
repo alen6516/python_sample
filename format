@@ -52,3 +52,10 @@ instance	=> ins
 default		=> def
 parameter	=> para
 variable	=> var
+global		=> glo
+local		=> loc
+
+# 註解
+''' document '''
+# single line needless code
+""" multiple lines needless code """
