@@ -12,6 +12,10 @@
 # 預處理的 method 用正常名稱，真正的 method 應該是一個 private method，所以用 _ 開頭
 	handle
 	_handle
+  但是 python 允許巢狀 function define 所以可以寫成
+  	def handle
+	    def _handle
+	        ....
 
 # 檔案名稱用小寫
 	food.py
