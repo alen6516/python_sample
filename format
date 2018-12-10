@@ -4,10 +4,11 @@
 # 內部用的attribute和method用_開頭
 	_private_attribute
 
-# method 用名詞開頭，回傳的結果用 ret 開頭
-	ret_time = get_time
-	set_time
-
+# method 名稱用動詞開頭，變數名稱用形容詞開頭
+	def get_time():
+		...
+	
+	result_time = get_time()
 
 # 預處理的 method 用正常名稱，真正的 method 應該是一個 private method，所以用 _ 開頭
 	handle
@@ -23,16 +24,17 @@
 # class 名稱用大寫開頭
 	class Foo
 
-# class method 開頭用加上 cls，多個字時用 _ 相連
-	cls_handle
-	_cls_handle
+/* deprecated
+ * # class method 開頭用加上 cls，多個字時用 _ 相連
+ *	cls_handle
+ *
+ * # class 的變數開頭加入 cls_，多個字用 _ 隔開
+ *	cls_reg_li
+*/
 
 # instance method 用小寫開頭，多個字時用 _ 相連
 	parse_tcp
 	_parse_tcp
-
-# class 的變數開頭加入 cls_，多個字用 _ 隔開
-	cls_reg_li
 	
 # 變數命名時，尾端加入 type 區別
 dict	  => _di
@@ -45,23 +47,22 @@ float	  => _flo
 
 # 其他常用縮寫
 register	=> reg
+response	=> res
 add		=> add
 delete		=> del
-remove		=> rem
 temp		=> tmp
 local 		=> loc
 global		=> glo
 class		=> cls
 instance	=> ins
-default		=> def
+default		=> default
 parameter	=> para
 variable	=> var
 global		=> glo
 local		=> loc
 
-# 註解
+# 註解(用#，通常不是一個完整的句子)
 # single line needless code, ex: x = x + 1	# add times
-
 
 # 文件字串(docstring)
 """Returns a list of handlers for the specific event.
