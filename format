@@ -48,7 +48,7 @@ float	  => _flo
 # 其他常用縮寫
 register	=> reg
 response	=> res
-add		=> add
+add	    	=> add
 delete		=> del
 temp		=> tmp
 local 		=> loc
@@ -58,8 +58,7 @@ instance	=> ins
 default		=> default
 parameter	=> para
 variable	=> var
-global		=> glo
-local		=> loc
+format      => fmt
 
 # 註解(用#，通常不是一個完整的句子)
 # single line needless code, ex: x = x + 1	# add times
